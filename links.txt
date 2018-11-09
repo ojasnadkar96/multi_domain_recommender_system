@@ -1,0 +1,32 @@
+# add links here
+https://labrosa.ee.columbia.edu/millionsong/
+-- music
+
+https://github.com/zygmuntz/goodbooks-10k
+-- books
+
+https://grouplens.org/datasets/movielens/
+-- movies
+
+https://pdfs.semanticscholar.org/02ff/37cd0059cf1af1ecfa62c32304c05ab3bf96.pdf
+-- svd paper
+
+http://blog.untrod.com/2016/06/simple-similar-products-recommendation-engine-in-python.html
+-- tf-idf reference
+
+http://www.cs.cmu.edu/~dbamman/booksummaries.html
+-- book summary dataset for tf-idf/cos~
+
+http://www.cs.cmu.edu/~ark/personas/
+-- movie summary dataset for tf-idf/cos~
+
+https://github.com/markriedl/WikiPlots
+-- watch it for the plot
+
+https://stats.stackexchange.com/questions/320962/matrix-factorization-in-recommender-systems-adding-a-new-user
+https://www.quora.com/How-do-I-predict-values-with-Matrix-Factorization-method-in-a-recommender-system
+http://libgen.io/scimag/ads.php?doi=10.1016%2Fj.ins.2007.07.024&downloadname=
+https://hrcak.srce.hr/file/185686
+-- prediction method for CF
+
+df['genres'] = df['genres'].apply(lambda x : set.union(*[translation_key[key] for key in ast.literal_eval(x)]))
