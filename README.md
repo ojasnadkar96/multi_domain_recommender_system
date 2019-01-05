@@ -1,2 +1,2 @@
-# multi-domain-recommender-system
+# Multi-domain Recommender System
 
