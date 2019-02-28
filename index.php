@@ -181,7 +181,7 @@ p1 {
     <div class="column3" style="height:250px;">
     </br>
       <h2>SEARCH</h2>
-      <form autocomplete="off" action="/home.php" method="post">
+      <form autocomplete="off" action="/fyp_ui/index.php" method="post">
         <div class="autocomplete" style="width:500px;">
           <input id="myInput" type="text" name="myTaste" placeholder="Movies/Books">
         </div>
@@ -193,10 +193,10 @@ p1 {
 <?php
 // this php script is for connecting with database
 // data have to fetched from local server
-$mysql_host = 'localhost';
+$mysqli_host = 'localhost';
  
 // user name is root
-$mysql_user = 'root';
+$mysqli_user = 'root';
  
 // function to connect with database having 
 // argument host and user name
